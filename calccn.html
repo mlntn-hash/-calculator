@@ -6,16 +6,29 @@
     <title>Калькулятор</title>
 </head>
 <body>
-    <input class="js-input-a" type="number">
-    <select class="js-select-operation">
-        <option value="+">+</option>
-        <option value="-">-</option>
-        <option value="*">*</option>
-        <option value="/">/</option>
-    </select>
-    <input class="js-input-b" type="number">
-    <button class="js-btn-result">Result</button>
-    <p class="js-output"></p>
+    <div class="container">
+     <div class="cont">
+      <h1 class="h1">Calculator</h1>
+      <input class="js-input-a input" placeholder="First number" type="number">
+      <select class="js-select-operation select">
+         <option value="+">+</option>
+         <option value="-">-</option>
+         <option value="*">*</option>
+         <option value="/">/</option>
+      </select>
+      <input class="js-input-b input"  placeholder="Second number" type="number">
+      <p><button class="js-btn-result button">
+         <div class="button-outer">
+         <div class="button-inner">
+         <span>RESULT</span>
+        </div>
+       </div>
+      </button>
+      </p>
+      <p class="js-output input"></p>
+     </div>
+    </div>
+    <link rel="stylesheet" href="stt.css">
     <script src="math.js"></script>
     <script src="calculator.js"></script>
     <script src="index.js"></script>
